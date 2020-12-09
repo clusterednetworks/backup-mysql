@@ -39,3 +39,6 @@ BACKUP_PATH='/home/backup/mysql'
 <code>./backup-mysql.sh</code>
 
 8. Setup a cronjob to run the script daily/weekly if you choose.
+<pre>
+5 1   * * * /etc/backup-mysql.sh >/dev/null 2>&1
+</pre>
