@@ -18,6 +18,7 @@ For Backing up your Website Files please see our backup-www script.
 <code>wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh</code>
 
 4. Edit the configuration options at the beginning of the script to match your environment prior to executing.
+<pre>
 ----------------------------------------
  OPTIONS
 ----------------------------------------
@@ -27,7 +28,7 @@ DAYS_TO_KEEP=5    # 0 to keep forever
 GZIP=0            # 1 = Compress
 BACKUP_PATH='/home/backup/mysql'
 ----------------------------------------
-
+</pre>
 
 5. Make the script executable
 
