@@ -11,11 +11,11 @@ For Backing up your Website Files please see our backup-www script.
 
 2. Logon as root
 
-<code>sudo -i</code>
+<pre>sudo -i</pre>
 
 3. Download the installer script.
 
-<code>wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh</code>
+<pre>wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh</pre>
 
 4. Edit the configuration options at the beginning of the script to match your environment prior to executing.
 <pre>
@@ -32,11 +32,11 @@ BACKUP_PATH='/home/backup/mysql'
 
 5. Make the script executable
 
-<code>chmod +x backup-mysql.sh</code>
+<pre>chmod +x backup-mysql.sh</pre>
 
 6. Run the script.
 
-<code>./backup-mysql.sh</code>
+<pre>./backup-mysql.sh</pre>
 
 8. Setup a cronjob to run the script daily/weekly if you choose.
 <pre>
